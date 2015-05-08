@@ -48,7 +48,7 @@
     "publish-yuidoc": "npm run yuidoc && node ./scripts/publish-docs.js"
   },
   "dependencies": {
-    "node-pre-gyp": "0.6.7",
+    "node-pre-gyp": "git://github.com/mapbox/node-pre-gyp.git",
     "nan": "1.8.4"
   },
   "devDependencies": {
