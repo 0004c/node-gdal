@@ -18,6 +18,13 @@
     "geojson",
     "mapping"
   ],
+  "binary": {
+    "module_name": "gdal",
+    "module_path": "./lib/binding/",
+    "remote_path": "./{module_name}/v{version}/{toolset}/",
+    "host": "https://mapbox-node-binary.s3.amazonaws.com",
+    "package_name": "{node_abi}-{platform}-{arch}.tar.gz"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/naturalatlas/node-gdal.git"
